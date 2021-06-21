@@ -87,19 +87,20 @@ main {
 }
 
 .card {
-    min-height:22vh;
+    min-height:13vh;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     display: flex;
     margin-bottom: 20px;
     background: #ffff;
+    padding: 10px 20px;
 }
 
 .image-card {
     min-width:8.3%;
     background-color: #ddfafa;
-    min-height: 18vh;
-    margin: 10px 0 30px 15px;
+    min-height: 10vh;
+    /* margin: 10px 0 30px 15px; */
     border-radius: 10px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
     border: 3px solid white;
