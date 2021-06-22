@@ -28,13 +28,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:10%;
+    /* width:10%; */
 }
 
 .dropdown, .icon {
     display: flex;
     justify-content: space-between;
-    width:5%;
+    gap:20px;
+}
+
+.fa-toggle-on {
+    font-size: 1.2rem;
 }
 
 .contributors {
@@ -55,9 +59,9 @@ header {
     text-align: left;
 }
 
-.dropdown {
+/* .dropdown {
     width: 30%;
-}
+} */
 
 select {
     padding: 10px 20px 10px 20px;
@@ -94,6 +98,7 @@ main {
     margin-bottom: 20px;
     background: #ffff;
     padding: 10px 20px;
+    width:100%;
 }
 
 .image-card {
@@ -106,9 +111,10 @@ main {
     border: 3px solid white;
 }
 
-/* .image-card img {
-    width: fit-content;
-} */
+.image-card img {
+    min-width: 100%;
+    min-height: 12vh;
+}
 
 .card-text {
     margin: 10px 0 10px 15px;
@@ -139,7 +145,10 @@ main {
     font-style: normal;
     font-weight: normal;
     font-size: 0.86rem;
-    /* color: #222222; */
+}
+
+.details img {
+    max-height: 3vh;
 }
 
 b {

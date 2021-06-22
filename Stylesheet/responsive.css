@@ -1,0 +1,65 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: bisque;
+    }
+
+    .card {
+        width:100%;
+    }
+
+    .image-card {
+        height:18vh;
+        min-width: 20%;
+    }
+
+    .dropdown {
+        gap:5px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    select {
+        padding: 10px;
+    }
+
+    .details p {
+        font-size: 0.83rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dropdown {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+    }
+
+    .image-card {
+        width:30%;
+        height:10vh;
+        background-color: white;
+    }
+
+    .image-card img{
+        width:10%;
+        background-color: none;
+    }
+
+    .card-text {
+        margin-top: 2rem;
+    }
+
+
+    .details p {
+        font-size: 0.66rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .details p {
+        font-size: 0.46rem;
+    }
+}
